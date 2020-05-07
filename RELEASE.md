@@ -38,6 +38,8 @@
     work as intended. If the user is using a custom component with customized
     Do function, `custom_config` should be assumed to be a JSON-serialized
     string from next release.
+*   Converted the BaseNode class attributes to the constructor parameters. This
+    won't affect any components derived from BaseComponent.
 
 ### For pipeline authors
 
